@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+    <title>Konsol-Studio-Test</title>
+
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper" role="main">
+        <div class="konsol-content">
+            <div class="price">
+                <span class="old-price">$44.99/cs</span>
+                <span class="new-price">$38.80/cs</span>
+                <span class="save-money">Save 16%</span>
+            </div>
+            <div class="banner-text">Buy More & Save!</div>
+            <div class="banner-with-link">
+                Any Chobani 2 for $4  <a href="" class="banner-link rt-arrow">View Selection</a>
+            </div>
+
+            <div class="coupon">
+                <div class="check-wrap">
+                    <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                    <label for="styled-checkbox-1" class="coupon-save">
+                        <img src="image/check-img.png">
+                        <span>Save $3.00</span>
+                    </label>
+                </div>
+                <a href="" class="coupon-detail rt-arrow">Details</a>
+            </div>
+
+            <div class="form-wrap">
+                <form action="" method="post">
+                    <h3>Customize Your Item:</h3>
+                    <div class="form-custom">
+                        <div class="form-item-first">
+                            <select class="form-custom-select">
+                                <option>Customization 1</option>
+                                <option>Customization 1</option>
+                            </select>
+                            <select class="form-custom-select">
+                                <option>Customization 2</option>
+                                <option>Customization 2</option>
+                            </select>
+                            <select class="form-custom-select">
+                                <option>Customization 3</option>
+                                <option>Customization 3</option>
+                            </select>
+                        </div>
+                        <div class="form-item-sec">
+                            <label for="count-single" class="label-radio">
+                                <input type="radio" id="count-single" name="count-cut"> Single Cut
+                            </label>
+                            <label for="count-double" class="label-radio">
+                                <input type="radio" id="count-double" name="count-cut"> Double  Cut
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-total">
+                        <div class="number-input">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                        </div>
+                        <div class="total-text">
+                            <span>Total: $38.80</span>
+                            <span class="total-text-lb">0.46/lb</span>
+                            <span class="total-text-est">(est)</span>
+                        </div>
+                    </div>
+                    <div class="submit-form">
+                        <button type="submit">Add to Cart</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

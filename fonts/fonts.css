@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'verdana-bold';
+    src: url('subset-Verdana-Bold.eot');
+    src: url('subset-Verdana-Bold.eot?#iefix') format('embedded-opentype'),
+    url('subset-Verdana-Bold.woff') format('woff'),
+    url('subset-Verdana-Bold.ttf') format('truetype'),
+    url('subset-Verdana-Bold.svg#Verdana-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verdana-regular';
+    src: url('subset-Verdana.eot');
+    src: url('subset-Verdana.eot?#iefix') format('embedded-opentype'),
+    url('subset-Verdana.woff') format('woff'),
+    url('subset-Verdana.ttf') format('truetype'),
+    url('subset-Verdana.svg#Verdana') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
